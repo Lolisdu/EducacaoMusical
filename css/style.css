@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Sono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.body{
+    font-size: 100%;
+}
+
+.cabecalho{
+    font-family: 'Domine', serif;
+    background-color:  rgb(206, 134, 39);
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content: space-around;
+}
+
+
+.carrosel{
+    display: flex;
+    padding: 10px;
+
+}
+
+
+.cursos{
+    font-family: 'Domine', serif; 
+    color: brown;
+    padding: 10px;
+}
+.espaco{
+    font-family: Domine;
+    background-color: bisque;
+}
+
+.icons{
+    display: flex;
+    align-items:center; 
+    justify-content:center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.texto{
+    background: #ec8627;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 30px;
+    font-family: 'Sono', sans-serif;
+
+}
+
+.depoimentos{
+    display: flex;
+    padding:20px;
+    flex-direction: row;
+}
+
+.rodape{
+font-family: Domine;
+color: antiquewhite;
+ background-color: rgb(27, 17, 3);
+ margin-top: 20px;
+ padding-top: 10px;
+}
+
