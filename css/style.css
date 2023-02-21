@@ -37,6 +37,7 @@
 .espaco{
     font-family: Domine;
     background-color: bisque;
+    border-radius: 10px;
 }
 
 .icons{
@@ -55,14 +56,64 @@
     justify-content:center;
     gap: 30px;
     font-family: 'Sono', sans-serif;
+    border-radius: 10px;
 
 }
 
 .depoimentos{
-    display: flex;
-    padding:20px;
-    flex-direction: row;
+    background-color: rgb(18, 138, 138);
+    font-family: 'Sono', sans-serif;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
 }
+.conteudo{
+    display: column;
+    flex-direction: row;
+   padding: 05px;
+   margin-left: 50px;
+
+}
+
+.bi-bi-chat-text-fill{
+    margin-left: 30px;
+    padding-top: 10px;
+
+}
+
+.card-img-top{
+    width:50%;
+    height: 50%;
+}
+
+.popstar{
+    font-family: Domine;
+    border-radius: 10px;
+    background-color: #ec8627;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.botoes{
+    font-family: Sono;
+    border-radius: 25px;
+    border-bottom: #f1efed;
+}
+
+.img-pop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
 
 .rodape{
 font-family: Domine;
@@ -70,5 +121,10 @@ color: antiquewhite;
  background-color: rgb(27, 17, 3);
  margin-top: 20px;
  padding-top: 10px;
+}
+
+.copyright_text{
+    display: flex;
+    justify-content: center;
 }
 
